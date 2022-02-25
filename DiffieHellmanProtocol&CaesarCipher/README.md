@@ -1,0 +1,1 @@
+To work with Cyrillic , you need to set code page 1251 (java process/debug console)
