@@ -33,6 +33,6 @@ public class HumanTests{
         bob.p=p;
         bob.setRecivedPublicKey(14);
         // PrivateCommonKey should = 7  hence
-        assertEquals("Коммуна", bob.getDecryptedMessage("оСППЦРГ"));
+        assertEquals("Коммуна:)", bob.getDecryptedMessage("оСППЦРГ"));
     }
 }
